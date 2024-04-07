@@ -1,5 +1,7 @@
 export const BASE_URL = "http://localhost:8080/";
 
+export type Id = string | number;
+
 export interface IAddress {
   zip: string;
   city?: string;
@@ -17,3 +19,8 @@ export interface iSubstation {
   psSchema?: string;
   district?: IDistrict;
 }
+
+export type DistrictColumn = {
+  id: Id;
+  districTitle: string;
+};

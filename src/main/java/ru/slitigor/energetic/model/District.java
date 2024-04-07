@@ -19,7 +19,7 @@ public class District {
     private String name;
     private String description;
     @OneToOne
-    @JoinColumn(name = "address_id", referencedColumnName = "id", nullable = false, unique = true)
+    @JoinColumn(name = "address_id", referencedColumnName = "id", unique = true)
     private Address address;
     @OneToMany(mappedBy = "district")
     private List<Substation> substations = new ArrayList<>();

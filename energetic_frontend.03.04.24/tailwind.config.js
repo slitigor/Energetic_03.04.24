@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        mainBgColor: "#f0eee5",
+        mainBgColor: "#0d1117",
+        colBgColor: "#262c32",
         greenColor: "#22c55e",
         redColor: "#ef4444",
         light: {
@@ -13,6 +14,7 @@ export default {
           btnCancelColor: "#ef4444",
           cardBgColor: "#ffffff",
           borderColor: "#959289",
+          colBgColor: "",
         },
         dark: {
           mainBGColor: "#505050",
@@ -20,6 +22,7 @@ export default {
           btnCancelColor: "#a98989",
           cardBgColor: "#606060",
           borderColor: "#959289",
+          colBgColor: "707070",
         },
       },
     },
